@@ -26,15 +26,6 @@ body {
     z-index: 222;
 }
 
-.slick-prev {
-    display: none;
-}
-
-.slick-next {
-    right: 0px !important;
-    display: none;
-}
-
 .navbar-nav .dropdown-menu {
     background-color: rgba(0, 0, 0, 0.4);
     color: white !important;
