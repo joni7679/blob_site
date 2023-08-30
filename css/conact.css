@@ -1,0 +1,177 @@
+:root {
+
+    --yellow-text: #fdb617;
+    --purple: #c070ff;
+    --red: #EA455F;
+    --gray: gray;
+
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar {
+    z-index: 2;
+    transition: all 2s linear;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: var(--purple);
+}
+
+.overly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+
+}
+
+.banner-section {
+    width: 100%;
+    position: relative;
+}
+
+.banner-section img {
+    width: 100%;
+}
+
+.con-page {
+
+    background: white;
+    right: 25px;
+    top: 112px;
+    position: absolute;
+    max-width: 500px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+}
+
+.conact-section {
+    padding: 10px 15px;
+}
+
+/* .conact-page {
+    width: 350px;
+    padding: 10px 15px;
+} */
+
+/* .conact-page-section {
+    width: 250px;
+    padding: 10px 25px;
+    position: relative;
+} */
+.conact-page {
+
+    padding: 151px 15px;
+}
+
+.conact-section{
+    position: relative;
+}
+
+.conact-section p {
+    margin-top: 50px;
+    color: var(--gray);
+    font-size: 20px;
+    padding: 10px 52px;
+}
+
+
+.icons {
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.fa-phone {
+
+    background-color: var(--purple);
+
+}
+
+.fa-envelope {
+    background-color: aqua;
+}
+
+.fa-location-dot {
+    background-color: red;
+}
+
+.icons {
+    position: absolute;
+    position: absolute;
+    top: 327px;
+    left: -27px;
+}
+
+.icons .icon i {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get_btn {
+    margin-top: 10px;
+    padding: 10px 25px;
+    border-radius: 19px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    background-color: var(--yellow-text);
+    text-decoration: none;
+}
+
+.get_btn a:hover {
+    color: white;
+}
+
+.footer-section {
+    margin-top: 200px;
+}
+
+
+@media (max-width:850px) {
+    .con-page {
+        flex-direction: column;
+        /* width: 500px; */
+    }
+
+    .footer-section {
+        margin-top: 750px;
+    }
+}
+
+@media (max-width:550px) {
+    .conact-page {
+        margin-top: -154px !important;
+
+    }
+
+    .con-page {
+        /* width: 50%; */
+    }
+}
+
+@media (max-width:450px) {
+    .footer-section {
+        margin-top: 984px;
+    }
+
+}
