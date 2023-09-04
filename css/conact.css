@@ -59,7 +59,7 @@
     right: 25px;
     top: 112px;
     position: absolute;
-    max-width: 500px;
+    max-width: 700px;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -166,6 +166,17 @@
     }
 }
 
+@media (max-width:740px) {
+
+    .icons {
+        top: 174px;
+        left: 7px;
+    }
+
+}
+
+
+
 @media (max-width:550px) {
     .conact-page {
         margin-top: -154px !important;
@@ -179,7 +190,7 @@
 
 @media (max-width:550px) {
     .footer-section {
-        margin-top: 528px;
+        margin-top: 550px;
     }
 
     .icons {
