@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>conact page</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- font awsome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
 
 
     <!-- css file link -->
-    <link rel="stylesheet" href="css/footer.css">
+
     <link rel="stylesheet" href="css/conact.css">
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="icon" href="./img/lgo.png">
 
 </head>
@@ -61,7 +61,6 @@
 
     <!-- conactsection here -->
     <div class="container">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto saepe esse.
         <div class="con-page">
             <div class="row">
                 <div class="  col-md-6  col-sm-12">
@@ -73,10 +72,10 @@
 
                         <div class="icons">
                             <div class="icon">
-                                <i class="fa-solid fa-phone "></i>
+                                <i class="fa-solid fa-phone  phone-icon "></i>
                             </div>
                             <div class="icon">
-                                <i class="fa-solid fa-envelope "></i>
+                                <i class="fa-solid fa-envelope " id="email-icon"></i>
                             </div>
                             <div class="icon">
                                 <i class="fa-solid fa-location-dot  "></i>
@@ -110,98 +109,97 @@
                     </div>
                 </div>
             </div>
-
         </div>
-        <!-- footer section here -->
-        <section class="footer-section ">
-            <div class="container py-5">
+    </div>
 
-                <div class="row">
-                    <div class="col-md-2 col-sm-12">
-                        <img src="./img/lgo.png" alt="" class="img-fluid logo">
-                        <div class="social-icon">
-                            <div class="icon">
-                                <i class="fa-brands fa-facebook"></i>
-                            </div>
-                            <div class="icon">
-                                <i class="fa-brands fa-instagram"></i>
-                            </div>
-                            <div class="icon">
-                                <i class="fa-brands fa-linkedin"></i>
+    <section class="footer-section">
+        <div class="container">
+            <div class="row">
 
-                            </div>
+                <div class="col-md-2 col-sm-6">
+                    <img src="./img/lgo.png" alt="" class="img-fluid logo">
+                    <div class="social-icon">
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook"></i>
                         </div>
-
-                    </div>
-                    <div class="col-md-2 col-sm-12">
-                        <div class="footer-link">
-                            <h5 class="text-info">quick links</h5>
-                            <a href="#">career</a>
-                            <a href="#"> Privacy Polices</a>
-                            <a href="#">t & c</a>
+                        <div class="icon">
+                            <i class="fa-brands fa-instagram"></i>
                         </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-linkedin"></i>
 
-                    </div>
-
-                    <div class="col-md-2 col-sm-12">
-                        <div class="footer-link">
-                            <h5 class="text-info">offering</h5>
-                            <a href="#">co working</a>
-                            <a href="#">studio</a>
-                            <a href="#">turf</a>
                         </div>
-
-                    </div>
-
-                    <div class="col-md-2 col-sm-12">
-                        <div class="footer-link">
-                            <h5 class="text-info">quick links</h5>
-                            <a href="#">career</a>
-                            <a href="#">career</a>
-                            <a href="#">career</a>
-                        </div>
-
-                    </div>
-
-
-                    <div class="col-md-2 col-sm-12">
-                        <div class="footer-link">
-                            <h5 class="text-info">Join the Newslatter</h5>
-
-                            <form action="" class="subcribe-form">
-                                <input type="email" placeholder="" class="input_box" required>
-
-                                <input type="submit" class="sub_btn">
-                            </form>
-                            <h5 class="text-info mt-2">Feel free contact with us
-                            </h5>
-                            <div class="conact-icon">
-                                <i class="fa-solid fa-phone text-purple"></i>
-                                7679178908
-                                <i class="fa-solid fa-envelope text-danger"></i>
-                                jonihalder814@gmail.com
-
-                            </div>
-                            <p>beatblood@gmail.com</p>
-                            <p>7th floor, Yamuna Building, 86, Golaghata
-                                <br>Road, Kolkata- 700048
-                            </p>
-                        </div>
-
                     </div>
 
                 </div>
+                <div class="col-md-2 col-sm-6">
+                    <div class="footer-link">
+                        <h5 class="text-info">quick links</h5>
+                        <a href="#">career</a>
+                        <a href="#"> Privacy Polices</a>
+                        <a href="#">t & c</a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-2 col-sm-6">
+                    <div class="footer-link">
+                        <h5 class="text-info">offering</h5>
+                        <a href="#">co working</a>
+                        <a href="#">studio</a>
+                        <a href="#">turf</a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-2 col-sm-6">
+                    <div class="footer-link">
+                        <h5 class="text-info">partnership</h5>
+                        <a href="#">career</a>
+                        <a href="#">career</a>
+                        <a href="#">career</a>
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-2 col-sm-12">
+                    <div class="footer-link">
+                        <h5 class="text-info">Join the Newslatter</h5>
+
+                        <form action="" class="subcribe-form">
+                            <input type="email" placeholder="" class="input_box" required>
+
+                            <input type="submit" class="sub_btn">
+                        </form>
+                        <h5 class="text-info mt-2">Feel free contact with us
+                        </h5>
+                        <div class="conact-icon">
+                            <i class="fa-solid fa-phone text-purple"></i>
+                            7679178908
+                            <i class="fa-solid fa-envelope text-danger"></i>
+                            jonihalder814@gmail.com
+
+                        </div>
+                        <p>beatblood@gmail.com</p>
+                        <p>7th floor, Yamuna Building, 86, Golaghata
+                            <br>Road, Kolkata- 700048
+                        </p>
+                    </div>
+
+                </div>
+
             </div>
-        </section>
+
+        </div>
+    </section>
 
 
 
 
-
-
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-        <!-- js link  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <!-- js link  -->
 </body>
 
 </html>

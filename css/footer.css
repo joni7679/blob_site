@@ -1,16 +1,16 @@
 .footer-section {
     width: 100%;
     background-color: #ededed;
+    position: relative;
 }
 
 
 
 .btn-link {
-    /* margin-top: -33px; */
+
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-bottom: 20px; */
 }
 
 
@@ -35,10 +35,6 @@
 .icon i {
     color: var(--gray);
     cursor: pointer;
-}
-
-.footer-section {
-    position: relative;
 }
 
 .footer-link {
@@ -111,6 +107,6 @@
 
     .social-icon {
         position: absolute;
-        bottom: 35px;
+        bottom: -16px;
     }
 }

@@ -349,6 +349,7 @@ body {
 
     .main-circle-div {
         width: 300px;
+        display: none;
     }
 
     .social-icon {
