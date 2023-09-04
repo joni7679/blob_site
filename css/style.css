@@ -16,6 +16,7 @@
 
 body {
     font-family: 'jost', sans-serif;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -49,7 +50,7 @@ body {
     color: white !important;
 } */
 .nav-link {
-    color: white !important;
+    color: white;
     font-size: 18px;
     font-weight: 500;
 }
@@ -66,6 +67,13 @@ body {
     outline: none !important;
     box-shadow: none !important;
 }
+
+.navbar-nav {
+    padding: 21px 36px;
+    border-radius: 13px;
+
+}
+
 
 .navbar-brand img {
 
@@ -258,7 +266,6 @@ body {
 
 .review-btn {
     width: 200px;
-
     padding: 10px;
 }
 
@@ -267,10 +274,9 @@ body {
 }
 
 .racting i {
-
     color: yellow;
-
 }
+
 
 .our_team img {
     width: 375px;
@@ -293,7 +299,17 @@ body {
 }
 
 
+@media (max-width:989px) {
+    .nav-link {
+        color: #000;
+    }
+
+}
+
 @media (max-width:750px) {
+    /* .nav-link {
+        color: #000;
+    } */
 
     .main-circle-div {
         top: 0;

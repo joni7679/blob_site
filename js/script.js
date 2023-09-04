@@ -153,6 +153,18 @@ $(".next-btn").click(function () {
 });
 
 
+// 
+
+function chngeBackground() {
+
+    var nav_bar = document.querySelector(".navbar-nav");
+    // var navBar = document.querySelector(".nav-link");
+    // navBar.style.color = "black";
+    nav_bar.style.backgroundColor = "white";
+
+
+}
+
 
 
 
