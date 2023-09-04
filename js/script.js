@@ -3,7 +3,7 @@ $('.gallery').slick({
     infinite: true,
     speed: 300,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     autoplay: true,
     arrows: false,
     responsive: [
@@ -53,7 +53,7 @@ $('.gallery-1').slick({
     infinite: true,
     speed: 300,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     autoplay: true,
     arrows: false,
     responsive: [
