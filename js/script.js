@@ -1,17 +1,22 @@
 $('.gallery').slick({
-    dots: false,
+    autoplay: true,
     infinite: true,
-    speed: 300,
-    slidesToShow: 3,
+    arrows: false,
+    cssEase: 'linear',
+    slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
-    arrows: false,
+    autoplaySpeed: 0,
+    speed: 8000,
+    pauseOnHover: false,
+
+
     responsive: [
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToShow: 4,
+                slidesToScroll: 1,
                 infinite: true,
                 dots: false,
 
@@ -22,16 +27,16 @@ $('.gallery').slick({
         {
             breakpoint: 950,
             settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToShow: 4,
+                slidesToScroll: 2,
             }
         },
 
         {
             breakpoint: 600,
             settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToShow: 4,
+                slidesToScroll: 1
             }
         },
         {
@@ -49,13 +54,17 @@ $('.gallery').slick({
 
 
 $('.gallery-1').slick({
-    dots: false,
+    autoplay: true,
     infinite: true,
-    speed: 300,
-    slidesToShow: 3,
+    arrows: false,
+    cssEase: 'linear',
+    slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
-    arrows: false,
+    autoplaySpeed: 0,
+    speed: 8000,
+    pauseOnHover: false,
+
     responsive: [
         {
             breakpoint: 1024,
@@ -165,6 +174,8 @@ function chngeBackground() {
 
 }
 
+// circle slice code  for js
+function mousemove(){
+var  maincrcle =  document.querySelector(".circle")
 
-
-
+}
