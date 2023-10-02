@@ -35,7 +35,7 @@ $('.gallery').slick({
         {
             breakpoint: 600,
             settings: {
-                slidesToShow: 4,
+                slidesToShow: 2,
                 slidesToScroll: 1
             }
         },
@@ -69,7 +69,7 @@ $('.gallery-1').slick({
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 4,
                 slidesToScroll: 2,
                 infinite: true,
                 dots: false,
@@ -80,7 +80,7 @@ $('.gallery-1').slick({
         {
             breakpoint: 950,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 4,
                 slidesToScroll: 2
             }
         },

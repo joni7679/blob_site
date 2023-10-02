@@ -146,12 +146,10 @@ body {
 }
 
 .pricing-content h4 {
-
     text-transform: capitalize !important;
 }
 
 .pricing-section {
-
     position: relative;
 }
 
@@ -163,13 +161,11 @@ body {
 .next-btn {
     position: absolute;
     top: 61%;
-
 }
 
 .arrow {
     cursor: pointer;
-    left: 17px;
-}
+    }
 
 .galley-imge {
     width: 100%;
