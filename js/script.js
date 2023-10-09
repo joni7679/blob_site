@@ -1,3 +1,5 @@
+
+
 $('.gallery').slick({
     autoplay: true,
     infinite: true,
@@ -54,6 +56,7 @@ $('.gallery').slick({
 
 
 $('.gallery-1').slick({
+    rtl: true,
     autoplay: true,
     infinite: true,
     arrows: false,
@@ -63,6 +66,7 @@ $('.gallery-1').slick({
     autoplay: true,
     autoplaySpeed: 0,
     speed: 8000,
+    
     pauseOnHover: false,
 
     responsive: [
