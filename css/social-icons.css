@@ -1,5 +1,3 @@
-
-
 .ctalink-box {
     position: fixed;
     margin-top: 115px;
@@ -15,7 +13,7 @@
 }
 
 .ctalink-box img {
-    width: 50px;
+    width: 60px;
     position: relative;
     cursor: pointer;
 }
@@ -26,7 +24,7 @@
 }
 
 .sub-ctalinks-box img {
-    width: 35px;
+    width: 50px;
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
@@ -39,41 +37,35 @@
 }
 
 .show-phone-ctaBtn {
-    bottom: 118px;
-    left: 24px;
+    bottom: 125px;
+    left: 8px;
     opacity: 1;
     z-index: 22;
 }
 
-.show-email-ctaBtn {
-    top: -116px;
-    left: 79px;
-    z-index: 99;
-}
-
-.map-ctaBtn{
+.email-ctaBtn {
     top: -91px;
     left: 39px;
     opacity: 0;
     z-index: -3;
 }
 
-.show-map-ctaBtn {
-    top: -127px;
-    left: 81px;
+.show-email-ctaBtn {
+    top: -161px;
+    left: 64px;
     opacity: 1;
 }
 
-.email-ctaBtn {
+.map-ctaBtn {
     top: -97px;
-    left: 17px;
+    left: 13px;
     z-index: -5;
     opacity: 0;
 }
 
-.show-email-ctaBtn {
-    top: -97px;
-    left: 80px;
+.show-map-ctaBtn {
+    top: -161px;
+    left: 73px;
     opacity: 1;
     z-index: 5;
 
